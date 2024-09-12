@@ -24,6 +24,13 @@ npm run cli pieces create
 # Select the piece type: custom
 ```
 
+## Commit to repository
+```bash
+git add .
+git commit -m "add fiesda and ecomon pieces" -n
+git push
+```
+
 ## Upload to npm.js (account easy4pro, see 1password)
 ```bash
 npm login
@@ -44,5 +51,4 @@ npm run publish-piece ecomon
 - Create new flow, select piece fiesda or ecomon
 - Create Server Account Token (Admin Dashboard) for any Identity and copy Token Value to new Connection
 - Apply Connection Base URL: eg https://easy4pro-ecomon.gradient0.com
-
 ```
